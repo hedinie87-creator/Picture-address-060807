@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海外订单全流程 - 角色图站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #1a1a2e;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        .card img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            background: #fafafa;
+            padding: 16px;
+        }
+        .card .label {
+            text-align: center;
+            padding: 12px 8px;
+            font-size: 14px;
+            color: #555;
+            border-top: 1px solid #f0f0f0;
+        }
+        .card .label .code {
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-right: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>海外订单全流程 · 角色图站</h1>
+    <p class="subtitle">共 13 个角色，按流程顺序排列</p>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="images/P01.png" alt="QC">
+            <div class="label"><span class="code">P01</span>QC</div>
+        </div>
+        <div class="card">
+            <img src="images/P02.png" alt="业务员">
+            <div class="label"><span class="code">P02</span>业务员</div>
+        </div>
+        <div class="card">
+            <img src="images/P03.png" alt="尾程配送司机">
+            <div class="label"><span class="code">P03</span>尾程配送司机</div>
+        </div>
+        <div class="card">
+            <img src="images/P04.png" alt="报关行">
+            <div class="label"><span class="code">P04</span>报关行</div>
+        </div>
+        <div class="card">
+            <img src="images/P05.png" alt="拖车司机">
+            <div class="label"><span class="code">P05</span>拖车司机</div>
+        </div>
+        <div class="card">
+            <img src="images/P06.png" alt="收货方">
+            <div class="label"><span class="code">P06</span>收货方</div>
+        </div>
+        <div class="card">
+            <img src="images/P07.png" alt="物流协调员">
+            <div class="label"><span class="code">P07</span>物流协调员</div>
+        </div>
+        <div class="card">
+            <img src="images/P08.png" alt="生产管理员">
+            <div class="label"><span class="code">P08</span>生产管理员</div>
+        </div>
+        <div class="card">
+            <img src="images/P09.png" alt="目的港代理">
+            <div class="label"><span class="code">P09</span>目的港代理</div>
+        </div>
+        <div class="card">
+            <img src="images/P10.png" alt="美国清关行">
+            <div class="label"><span class="code">P10</span>美国清关行</div>
+        </div>
+        <div class="card">
+            <img src="images/P11.png" alt="船公司">
+            <div class="label"><span class="code">P11</span>船公司</div>
+        </div>
+        <div class="card">
+            <img src="images/P12.png" alt="财务&单证">
+            <div class="label"><span class="code">P12</span>财务&amp;单证</div>
+        </div>
+        <div class="card">
+            <img src="images/P13.png" alt="货代">
+            <div class="label"><span class="code">P13</span>货代</div>
+        </div>
+        <div class="card">
+            <img src="images/logo_black.png" alt="黑logo">
+            <div class="label">黑logo</div>
+        </div>
+        <div class="card">
+            <img src="images/logo_white.png" alt="白logo">
+            <div class="label">白logo</div>
+        </div>
+    </div>
+
+</body>
+</html>
